@@ -63,7 +63,7 @@ async def async_main(
             LOG.debug(f"Removing {work_path}")
             rmtree(work_path)
 
-    return -1
+    return -2
 
 
 @click.command(context_settings={"help_option_names": ["-h", "--help"]})
